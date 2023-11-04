@@ -1,0 +1,267 @@
+1. java is a object oriented programming language 
+is used for create webapplication,mobile application,deskopt application etc
+java is a case sensitive
+
+javac is the java compiler it can used for compile the file.
+its can contain the byte code 
+
+2.jdk jdk(java development kit)it can be contain the jre and tools it can be used to compile  the program.  
+ jRE (java run time enviornment) it can contain the pre define liniary function it can be used to execution the file.
+ jvm(java varitual machine)it can convert data in to byte code.
+
+3. .java file contain the java code it can be comiled the program,it contains be executed the code,
+   .class file contain the class file it can not be compiled its contain the byte code or machine understanding code,
+
+4.java IDEs are
+linux 
+jdk
+eclipes
+NetBeens
+
+5.variabe is  define as the store the data, 
+or it contains the data 
+it used to assigning the value to the variable,
+variable can be 
+
+in variable they have two types
+
+class level
+method level 
+ 
+class level 
+static and non static
+
+method level 
+parameter and instances
+
+class Fan{
+ static String name;    //static variable
+ static double serialNo;
+}
+
+ static void display()
+{
+System.out.println("name is ":+name);
+System.out.println("serialNo is":+serial no);
+}
+public static void main (String args[])
+{
+int height=5.6; // instance variable
+System.out.println("height is ":+height);
+}
+}
+
+6.  java is a object oriented programming java is the platform indepentent 
+it cantains the main object 
+polymorphism : a class can contain the many form and it can be accsss the many form at time
+	ex: laptop
+Abstractoin : Abstraction is access the data without Knowleding of the baground of data
+       ex:washing machine
+inheritence: a clss can accure the property from one class to another class
+         ex: parents and child
+encapulation: it can acess trhe data with the many time is called encapulation
+
+
+
+
+7. out put: is executed but does not give the out put  
+
+8.data type is the what type of data can be strored int the variable 
+
+primitive : primitive data type are pre define data type it can be acess the user
+they are 8 primitive data type
+byte     1bytes
+int 	 4 bytes
+long     8bytes
+float    4bytes
+short	4byte
+double	8bytes
+boolean  2bit
+char	4bytes
+
+non primitive:non primitive data type are the not predefined data type 
+it can be access the user it can be declare by the user 
+the are infinte non primitive data types 
+ex: String 
+table
+chair.....etc
+
+
+ex: class Mobile{
+
+ static int cost;
+ static String name;
+static void main()
+{
+System.out.println("this is data type");
+System.out.println("cos of mobile is":+cost);
+System.out.println("name of the mobile is":+nmae);
+}
+}
+
+class MobileStarter{
+public static void main(String args[])
+{
+Mobile.cost=50;
+Mobile.name=realme;
+System.out.println("name is ":+name);
+System.out.println("cost is":+cost);
+}
+
+9.dot operator is the member operator
+it can be used to access the methods and variable 
+it can be declare in the class 
+
+ex: class Bus{
+
+static int name;
+static double cost;
+
+static void display()
+{
+System.out.println("bus name is":+name);
+System.out.println("bus cost is":+cost);
+}
+}
+
+class BusStarter{
+public static void main(String args[])
+{
+Bus.name="iravatha" // here .(dot) acess the variable
+Bus.cost=40;
+}
+System.out.println("Starting of method");
+System.out.println("bus name is":+name);
+System.out.println("bus cost is":+cost);
+System.out.println("end of main method");
+}
+
+10. features
+java is object  oriented programming language
+java is simple
+java is robostic
+java is securi and maintable
+java is easy to under stand
+java is easy to impliments
+
+11.Array is the collection of homogenious element with same data type
+array is start with index 0 to end with n-1
+creation of single arry we can declare the nultiple value
+
+ex: int number={23,24,25,26,27,28,29};
+
+12.class is the key word it can be use to create the object
+object is the real world entity
+ ex: class classname{  //class 
+int name;  // object
+}
+
+
+13.key word are reseversed words it can not be changed
+
+char   abstract  if   while  do 
+byte   else     new    synchroized   double
+for  final   goto  instances   
+
+14.constructor is the special method 
+the class name is same as constructor name 
+constructor is no return value 
+ 
+type of constructor
+parameter 
+defalut
+parametre: a constructor is the contain the value is called parameter constructor
+default : a constructor does not contain the value 
+
+
+15.main method is static because it can  not be acess the out side the class 
+method types 
+static  method 
+non static  
+
+Static method :a method can be declare the static it can be access the out side the class 
+non static method : a method can access the another class 
+
+ex: class Table{
+
+  int number;
+puplic void tab() // non static method 
+{
+}
+
+stayic void main() //static method
+{
+}
+
+}
+
+16. class Keybord{
+
+int number={1,2,3,2,45,6,7,6};
+public static void main(String args[])
+
+{ 
+   
+System.out.println("start of main method");
+System.out.println("length of the array":+length(number[6]));
+System.out.println("start of main method");
+}
+}
+
+
+
+17. method : a set of parameter can be execute
+ method overloading :a class wiht same name but different parameter is called method overloading 
+
+ex: class Bike{
+
+int number;
+String name;
+double serialNo;
+}
+public static void main(String args[])
+{
+static void  Move(String name,int number,double serialNo)
+{
+System.out.println("Bike name is :"+ name);
+System.out.println("Bike number is :"+ number);
+System.out.println("Bike serialNo is :"+ serialNo);
+}
+static void  ride(String name,int number,double serialNo)
+{
+System.out.println("Bike name is :"+ name);
+System.out.println("Bike number is :"+ number);
+System.out.println("Bike serialNo is :"+ serialNo);
+}
+static void  bag(String name,int number,double serialNo)
+{
+System.out.println("Bike name is :"+ name);
+System.out.println("Bike number is :"+ number);
+System.out.println("Bike serialNo is :"+ serialNo);
+}
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
