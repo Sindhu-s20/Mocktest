@@ -1,0 +1,115 @@
+ 1. class PrimeNumber{
+
+int number;
+
+public static void main(String args[])
+
+{
+	if(number/2==0)
+        {
+          System.out.println("this is prime number:"+number);
+	}
+	else
+	{
+		System.out.println("this is not a prime number");
+	}
+
+}
+
+}
+
+2 reverse string
+           
+        class reversestring {
+
+	public static void main(String[] args) {
+
+	StringBuilder sb = new StringBuilder("hello");
+	System.out.println(sb.reverse());
+			
+		}
+
+	}
+
+
+3.class reverse capitel letter to samall
+	
+
+	class Uppercase{
+	
+	public static void main(String args[])
+       {
+		string Xworkz Odc;
+		String Stringrev="";
+		for(int i=0;i<Stringrev.length-1; i--)
+		{
+		Stringrev Stringrev+String.char[i];
+		System.out.println("reverse of the string:"re
+}
+
+
+ 4 class pattren {
+   public static void main(String[] args)  {
+	        int rows = 5; // 
+	        int coloums=5;
+	        
+	        for (int i = 1; i <= rows; i++) {
+			for(int i=1; i<=coloums; i++)
+			{
+	            for (int j = 1; j <= rows - i; j++) {
+	                System.out.print(" ");
+			for(int j=1;j<=coloum -1; j++){
+                          System.out.print(" ");
+			}
+	            }
+
+	               for (int k = 1; k <= i; k++) {
+	                System.out.print("*");
+			for (int k = 1; k <= i; k++) {
+	                System.out.print("*");
+	            }
+
+	            System.out.println(); 
+	        }
+	    }
+	}
+
+
+
+ 	
+
+
+
+
+	
+
+
+
+
+	
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
